@@ -18,7 +18,7 @@ namespace GameProgramManagement
                 NationalityId = 65903045602,
                 FirstName = "Can",
                 LastName = "Bahar",
-                DateOfBirthYear = 1974
+                DateOfBirthYear = 2010
             });
 
         }
