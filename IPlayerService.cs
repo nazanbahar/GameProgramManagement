@@ -5,8 +5,11 @@ using System.Text;
 
 namespace GameProgramManagementDemo.Abstract
 {
-    public class ISalesService 
+    public interface IPlayerService
     {
-
+        void PlayerCreated();
+        void PlayerDeleted();
+        void PlayerSaved();
+        void PlayerApproved();
     }
 }

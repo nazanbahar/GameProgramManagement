@@ -5,8 +5,12 @@ using System.Text;
 
 namespace GameProgramManagementDemo.Abstract
 {
-    public class ISalesService 
+    interface IGameService
     {
+        void GameCreated();
+        void GameDeleted();
+        void GameSaved();
+        void GameApproved();
 
     }
 }

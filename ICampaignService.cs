@@ -7,10 +7,12 @@ namespace GameProgramManagementDemo.Abstract
 {
     public interface ICampaignService
     {
-        void Add(Campaign campaign);
-        void Save(Campaign campaign);
-        void Update(Campaign campaign);
-        void Delete(Campaign campaign);
-     //   List<Campaign> GetList();
+        void CampaignCreated();
+        void CampaignDeleted();
+        void CampaignUpdated();
+        void CampaignApproved();
+ 
+        void CampaignCalculate(Campaign campaign);
+        //List<Campaign> GetList();
     }
 }

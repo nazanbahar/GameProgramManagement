@@ -8,6 +8,11 @@ namespace GameProgramManagementDemo.Abstract
     {
         //Save metot -parametre customer
         void Save(Customer customer);
-        
+        void CustomerMadePreferred(Customer customer);
+
+
+
+
+
     }
 }
